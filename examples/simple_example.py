@@ -7,7 +7,6 @@ from nbeats_pytorch.model import NBeatsNet as NBeatsPytorch
 
 warnings.filterwarnings(action='ignore', message='Setting attributes')
 
-
 def main():
     # https://keras.io/layers/recurrent/
     num_samples, time_steps, input_dim, output_steps = 50_000, 10, 1, 1
