@@ -3,7 +3,6 @@ import numpy as np
 import torch
 from torch import nn, Tensor
 
-
 class SeqGenerator:
     def __init__(self, model: nn.Module, record_intensity: bool = False):
         self.model = model
