@@ -7,6 +7,7 @@ b = b.detach().numpy()
 b = b.squeeze(0)
 print(b)
 
+
 def attention_plot(attention, x_texts=None, y_texts=None, figsize=(15, 10), annot=False, figure_path='./figures',
                    figure_name='attention_weight1.png'):
     plt.clf()
