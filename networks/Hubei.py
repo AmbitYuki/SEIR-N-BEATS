@@ -93,6 +93,7 @@ result = seir_new.run(death_rate = 0.02) # assume death rate is 2%
 seir_new.plot_noSuscep('Dynamic SEIR for China total', 'population', 'Date', starting_point = Shanghai_df['date'].max())
 print(result['Infected'])
 
+
 """
 Calculate MAPE test score using SEIR model result
 """
