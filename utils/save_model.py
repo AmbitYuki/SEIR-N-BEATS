@@ -4,7 +4,6 @@ import torch
 
 SAVED_MODELS_PATH = "saved_models"
 
-
 def save_model(model: torch.nn.Module, chosen_data_file, extra_tag, hidden_size, now_timestamp, model_name=None):
     if model_name is None:
         model_name = model.__class__.__name__
